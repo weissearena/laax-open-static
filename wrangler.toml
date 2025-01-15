@@ -1,11 +1,12 @@
 name = "maintenance"
-main = "_worker.js" # Update this line to reference the empty worker file
+main = "_worker.js"  # Keep this line, pointing to your empty worker
 compatibility_date = "2025-01-15"
 
-[build]
-  command = "" # Empty build command
+# Remove the entire [build] section:
+# [build]
+#   command = ""
 
-[build.upload]
-  format = "modules"
-  dir = "." # Uploads all static assets from the root
-  main = "_worker.js" # References the empty worker
+# [build.upload]
+#   format = "modules"
+#   dir = "."
+#   main = "_worker.js"

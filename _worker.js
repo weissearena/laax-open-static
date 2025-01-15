@@ -1,12 +1,11 @@
 addEventListener('fetch', event => {
-    event.respondWith(handleRequest(event.request))
-  })
+  event.respondWith(handleRequest(event.request))
+})
 
-  async function handleRequest(request) {
-
-      return new Response(null, {
-        headers: {
-          'content-type': 'text/html;charset=UTF-8',
-        },
-      })
-  }
+async function handleRequest(request) {
+return new Response(null, {
+  headers: {
+    'content-type': 'text/html;charset=UTF-8',
+  },
+})
+}
