@@ -2,8 +2,8 @@ body {
     font-family: 'Inter', sans-serif; /* Oder deine gewünschte Schriftart */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Hintergrundfarbe */
-    color: #333; /* Textfarbe */
+    background-color: #000; /* Hintergrundfarbe */
+    color: #fff; /* Textfarbe */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
